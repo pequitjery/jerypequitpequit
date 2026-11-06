@@ -1,0 +1,58 @@
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 Jery Pequitpequit. All rights reserved.</p>
+    <a href="#hero">Back to Top ↑</a>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: #0f172a;
+    color: #e2e8f0;
+  }
+
+  .footer-content {
+    box-sizing: border-box;
+    width: min(100% - 2rem, 72rem);
+    min-height: 5rem;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .footer-content p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 0.875rem;
+  }
+
+  .footer-content a {
+    flex-shrink: 0;
+    color: #67e8f9;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+
+  .footer-content a:hover {
+    color: #a5f3fc;
+  }
+
+  .footer-content a:focus-visible {
+    border-radius: 0.125rem;
+    outline: 2px solid #67e8f9;
+    outline-offset: 4px;
+  }
+
+  @media (max-width: 480px) {
+    .footer-content {
+      min-height: auto;
+      padding-block: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+</style>
